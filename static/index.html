@@ -1,0 +1,31 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Prompt Generator</title>
+    <link rel="stylesheet" href="static/index.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <div id="container">
+        <h1>AI Prompt Generator</h1>
+        <form id="promptForm">
+            <label for="model">Select AI Model:</label><select id="model" name="model">
+                <option value="chatgpt">ChatGPT</option>
+                <option value="gemini">Gemini</option>
+            </select>
+            <label for="prompt">Enter your prompt:</label><textarea id="prompt" name="prompt" rows="4" placeholder="Type your AI prompt here..."></textarea>
+            
+            
+            
+
+            <button type="submit">Generate</button>
+        </form>
+
+        <div id="result">
+            <h2>Result:</h2>
+            <p id="output"></p>
+        </div>
+    </div>
+    
+    <script src="/static/index.js"></script> <!-- Link to JS -->
+
+</body></html>
