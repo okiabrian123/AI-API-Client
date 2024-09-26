@@ -41,7 +41,7 @@ To run the server:
 cargo run
 This starts the server on https://127.0.0.1:1011. You can access it from your browser, but due to the self-signed certificates, you may need to configure your browser to trust them.
 ```
-## 4. Access the API
+### 4. Access the API
 POST /api/generate: Sends a request to either ChatGPT or Gemini APIs based on the provided prompt.
 ```bash
 curl -X POST -H "Content-Type: application/json" \
