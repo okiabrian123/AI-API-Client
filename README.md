@@ -52,6 +52,6 @@ https://127.0.0.1:1011/api/generate --insecure
 Static files are served from the static folder. Place any additional frontend files like index.html in this directory.
 
 Notes on API Keys
-ChatGPT API Key: This key is required for making requests to OpenAI's ChatGPT API.
-Gemini API Key: This key is required for making requests to the Gemini API.
-Self-Signed Certificates: If you are using self-signed certificates, you may need to configure your web browser to trust the certificate in order to access the server securely.
+- ChatGPT API Key: This key is required for making requests to OpenAI's ChatGPT API.
+- Gemini API Key: This key is required for making requests to the Gemini API.
+- Self-Signed Certificates: If you are using self-signed certificates, you may need to configure your web browser to trust the certificate in order to access the server securely.
