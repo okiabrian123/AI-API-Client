@@ -50,6 +50,7 @@ https://127.0.0.1:1011/api/generate --insecure
 ```
 ### 5. Serving Static Files
 Static files are served from the static folder. Place any additional frontend files like index.html in this directory.
+https://127.0.0.1:1011
 
 ## Notes
 - ChatGPT API Key: This key is required for making requests to OpenAI's ChatGPT API.
