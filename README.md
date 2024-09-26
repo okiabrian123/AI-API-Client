@@ -13,7 +13,7 @@ This project is an API client built with Rust using Actix Web, providing a secur
 Ensure you have the following installed:
 - **Rust** (with Cargo)
 - **OpenSSL** (for certificate generation)
-- **Self-Signed SSL Certificates** (used in Rustls for HTTPS)
+- **SSL Certificates** (used in Rustls for HTTPS)
 
 You can generate self-signed certificates by running:
 
