@@ -49,7 +49,7 @@ curl -X POST -H "Content-Type: application/json" \
 https://127.0.0.1:1011/api/generate --insecure
 ```
 ### 5. Serving Static Files
-Static files are served from the static folder. Place any additional frontend files like index.html in this directory.
+Static files are served from the static folder. Place any additional frontend files like index.html in this directory.</br >
 https://127.0.0.1:1011
 
 ## Notes
