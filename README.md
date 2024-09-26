@@ -34,7 +34,7 @@ Replace chatgpt_api_key and gemini_api_key in main.rs with your actual API keys.
 let chatgpt_api_key = "your-chatgpt-api-key".to_string();
 let gemini_api_key = "your-gemini-api-key".to_owned();
 ```
-###3. Running the Server
+### 3. Running the Server
 To run the server:
 
 ```bash
